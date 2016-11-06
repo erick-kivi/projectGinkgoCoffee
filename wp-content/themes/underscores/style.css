@@ -1,11 +1,10 @@
 /*
 Edited by Jacob Gast - gastj@csp.edu
 Changes made:
-   Line 361: Changed color from #fff to #E3F9EB;
-   Line 520: Changed color from royalblue to #707A74;
-   Line 523: Changed color from purple to #4A795B; 
-   Line 530: Changed color from midnightblue to #0C3119;
-   Line 562: Added "margin: 0px 5px;"
+   Line 64: added 10px padding to left and right sides of the screen
+   Line 362: changed color from #fff to #d1d1d1;
+   Lines 377-387: added color formatting for h1 and h2 elements;
+   Line 574: added "margin: 0px 5px;"
 
 Theme Name: underscores
 Theme URI: http://underscores.me/
@@ -62,6 +61,7 @@ html {
 
 body {
 	margin: 0;
+	padding: 0px 10px;
 }
 
 article,
@@ -359,7 +359,7 @@ html {
 }
 
 body {
-	background: #E3F9EB; /* Fallback for when there is no custom background color defined. */
+	background: #d1d1d1; /* Fallback for when there is no custom background color defined. */
 }
 
 blockquote:before,
@@ -374,10 +374,16 @@ q {
 	quotes: "" "";
 }
 
-h1,
+h1 {
+   background-color: #c0a419;
+   color: #000;
+   text-align: center;
+}
+
 h2 {
-	background-color: #0c3119;
-	color: #fff;
+   background-color: #331c0b;
+   color: #fff;
+   text-align: center;
 }
 
 hr {
@@ -524,17 +530,17 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: #707A74;
+	color: royalblue;
 }
 
 a:visited {
-	color: #4A795B;
+	color: purple;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: #0C3119;
+	color: midnightblue;
 }
 
 a:focus {
